@@ -1,0 +1,100 @@
+body {
+    background-color: #36393f;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.I-B {
+    text-align: center;
+}
+
+.Invite-Button {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: silver 0.125em solid;
+    padding: 0.25rem 1em;
+    border-radius: 5px;
+    text-shadow: 0 0 0.5em black;
+    box-shadow: 0 0 0.5em black;
+
+    transition: ease-in-out 250ms;
+}
+
+.Invite-Button:hover {
+    text-shadow: 0 0 0.5em silver;
+    box-shadow: 0 0 0.5em silver;
+}
+
+.P-Text {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.Container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: silver;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    max-height: 2.5rem;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 25px;
+
+    position: relative;
+}
+
+nav a {
+    color: #444444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
