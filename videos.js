@@ -5,7 +5,7 @@ fetch("https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC1Pf
 }).then((data)=>{
 	console.log(data)
 	let videos = data.items
-	for (video of videos){
+	for(video of videos){
 		console.log(video.snippet.title)
 	}
 })
