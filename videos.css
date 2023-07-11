@@ -4,6 +4,14 @@ body {
     margin: 0;
 }
 
+.youtube-stuff {
+    text-align: center;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .P-Text {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
